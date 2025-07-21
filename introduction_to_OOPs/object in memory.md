@@ -12,7 +12,7 @@
 - **Primitive types** like `int`, `long`, `double`, `float` are stored in **stack memory** because their size is predefined by Java creators.
 - **Arrays, objects, and classes** are stored in **heap memory**.
 
- ![Objects_in_memory](./images/objects_in_memory.png)
+ ![Objects_in_memory](../images/objects_in_memory.png)
 
 ## 📌 Pass-by-Value in Java
 
@@ -44,7 +44,7 @@ public class Main {
 - Java is **pass-by-value**, even for primitives.
 - `swap(x, y)` swaps **copies** of `x` and `y`, not the actual variables from `main()`.
 - Changes made inside `swap()` do **not** affect the original variables.
- ![Pass_by_value](./images/pass_by_value.png)
+ ![Pass_by_value](../images/pass_by_value.png)
 
 ### 📌 How to Swap Actual Values?
 
@@ -94,7 +94,7 @@ public class Main {
 
 ### 🧠 Behind the Scenes: What Happens Internally?
 
-![pass_by_value_of_reference](./images/pass_by_value_of_reference.png)
+![pass_by_value_of_reference](../images/pass_by_value_of_reference.png)
 1. In `main()`, you create an object `p1` with values `(10, 20)`.
 2. You pass `p1` to `swap(p1)`.
 3. Java passes a **copy of the reference** to the object.
