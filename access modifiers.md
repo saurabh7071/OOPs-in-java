@@ -9,7 +9,7 @@ Java provides several keywords to control the **visibility** or **accessibility*
 - `public`
 - `protected` (not discussed here)
 
-![]()
+![access_modifier](./images/access_modifier.png)
 
 
 ## 🔐 `private` Access Modifier
