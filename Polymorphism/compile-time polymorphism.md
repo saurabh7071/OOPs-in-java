@@ -111,4 +111,7 @@ All are call methods, but depending on input, the action varies. This is similar
 --- 
 
 ## 🔚 Conclusion
-Compile-time polymorphism helps to achieve method reusability and cleaner code. It enhances readability and allows the developer to use the same method name for similar operations with different inputs.
+
+![compile-time polymorphism](../images/compile-time_polymorphism.png)
+
+- Compile-time polymorphism helps to achieve method reusability and cleaner code. It enhances readability and allows the developer to use the same method name for similar operations with different inputs.
